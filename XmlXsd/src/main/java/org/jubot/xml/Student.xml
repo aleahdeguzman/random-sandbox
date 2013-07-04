@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:student xmlns:p="http://www.org.jubot/student_schema" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.org.jubot/student_schema student_schema.xsd ">
+  <p:name>Frances Aleah</p:name>
+  <p:age34e</p:age>
+  <p:bday>1979-03-20</p:bday>
+  <p:studentno>1</p:studentno>
+  <p:subjects>
+    <p:subject>Math</p:subject>
+    <p:subject>English</p:subject>
+    <p:subject>Science</p:subject>
+  </p:subjects>
+  <p:course>ICS</p:course>
+</p:student>

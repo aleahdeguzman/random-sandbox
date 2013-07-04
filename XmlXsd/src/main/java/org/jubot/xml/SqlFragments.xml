@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql-fragments xmlns="http://www.org.jubot/sqlFragment_schema"    
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.org.jubot/sqlFragment_schema.xsd">
+
+	<sql-fragment sql-name="GET_USER_PROFILE">
+		<sql-string>Select a.userid, a.unitcode, a.username, a.worklocation, a.department, a.loginattempt, a.lockaccount, a.swiftflag, a.validtill,
+					a.lastupdate, b.unitname FROM UserProfile a, UnitProfile b WHERE userid = ?
+					AND a.worklocation = b.unitinitial</sql-string>
+	</sql-fragment>
+	
+	<sql-fragment sql-name="GET_USER_PROFILE2">
+		<sql-string>Select a.userid, a.unitcode, a.username, a.worklocation, a.department, a.loginattempt, a.lockaccount, a.swiftflag, a.validtill,
+					a.lastupdate, b.unitname FROM UserProfile a, UnitProfile b WHERE userid = ?
+					AND a.worklocation = b.unitinitial</sql-string>
+	</sql-fragment>
+</sql-fragments>
